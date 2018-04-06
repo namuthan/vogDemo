@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8D28908C2077D7C00029F37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28908B2077D7C00029F37C /* AppDelegate.swift */; };
-		8D28908E2077D7C00029F37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28908D2077D7C00029F37C /* ViewController.swift */; };
 		8D2890912077D7C00029F37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D28908F2077D7C00029F37C /* Main.storyboard */; };
 		8D2890932077D7C00029F37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2890922077D7C00029F37C /* Assets.xcassets */; };
 		8D2890962077D7C00029F37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2890942077D7C00029F37C /* LaunchScreen.storyboard */; };
 		8D2890A12077D7C10029F37C /* VogDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890A02077D7C10029F37C /* VogDemoTests.swift */; };
 		8D2890AC2077D7C10029F37C /* VogDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890AB2077D7C10029F37C /* VogDemoUITests.swift */; };
+		8D2890BB2077D8A90029F37C /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890BA2077D8A90029F37C /* Shakeable.swift */; };
+		8D2890BE2077D9130029F37C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890BD2077D9130029F37C /* FormViewController.swift */; };
+		8D2890C32077D9450029F37C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890C22077D9450029F37C /* CustomTextField.swift */; };
+		8D2890C52077D9C60029F37C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890C42077D9C60029F37C /* RoundedButton.swift */; };
+		8D2890C72077DC550029F37C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890C62077DC550029F37C /* DetailViewController.swift */; };
+		8D2890C92077DE510029F37C /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890C82077DE510029F37C /* StyleSheet.swift */; };
+		8D2890CC2077DE710029F37C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890CB2077DE710029F37C /* UIColor.swift */; };
+		8D2890CE2077DF0E0029F37C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890CD2077DF0E0029F37C /* UIView.swift */; };
+		8D2890D0207810EC0029F37C /* VogImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2890CF207810EC0029F37C /* VogImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		8D2890882077D7C00029F37C /* VogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D28908B2077D7C00029F37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D28908D2077D7C00029F37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D2890902077D7C00029F37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D2890922077D7C00029F37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D2890952077D7C00029F37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		8D2890A72077D7C10029F37C /* VogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2890AB2077D7C10029F37C /* VogDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogDemoUITests.swift; sourceTree = "<group>"; };
 		8D2890AD2077D7C10029F37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D2890BA2077D8A90029F37C /* Shakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+		8D2890BD2077D9130029F37C /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		8D2890C22077D9450029F37C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8D2890C42077D9C60029F37C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8D2890C62077DC550029F37C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D2890C82077DE510029F37C /* StyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
+		8D2890CB2077DE710029F37C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8D2890CD2077DF0E0029F37C /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8D2890CF207810EC0029F37C /* VogImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,11 @@
 		8D28908A2077D7C00029F37C /* VogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D2890CA2077DE620029F37C /* extensions */,
+				8D2890C12077D9330029F37C /* Views */,
+				8D2890BC2077D8D30029F37C /* Controllers */,
+				8D2890B92077D8910029F37C /* protocols */,
 				8D28908B2077D7C00029F37C /* AppDelegate.swift */,
-				8D28908D2077D7C00029F37C /* ViewController.swift */,
 				8D28908F2077D7C00029F37C /* Main.storyboard */,
 				8D2890922077D7C00029F37C /* Assets.xcassets */,
 				8D2890942077D7C00029F37C /* LaunchScreen.storyboard */,
@@ -123,6 +142,43 @@
 				8D2890AD2077D7C10029F37C /* Info.plist */,
 			);
 			path = VogDemoUITests;
+			sourceTree = "<group>";
+		};
+		8D2890B92077D8910029F37C /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8D2890BA2077D8A90029F37C /* Shakeable.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8D2890BC2077D8D30029F37C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D2890BD2077D9130029F37C /* FormViewController.swift */,
+				8D2890C62077DC550029F37C /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D2890C12077D9330029F37C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D2890C22077D9450029F37C /* CustomTextField.swift */,
+				8D2890C42077D9C60029F37C /* RoundedButton.swift */,
+				8D2890C82077DE510029F37C /* StyleSheet.swift */,
+				8D2890CF207810EC0029F37C /* VogImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D2890CA2077DE620029F37C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D2890CB2077DE710029F37C /* UIColor.swift */,
+				8D2890CD2077DF0E0029F37C /* UIView.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D28908E2077D7C00029F37C /* ViewController.swift in Sources */,
+				8D2890C52077D9C60029F37C /* RoundedButton.swift in Sources */,
+				8D2890D0207810EC0029F37C /* VogImageView.swift in Sources */,
+				8D2890BB2077D8A90029F37C /* Shakeable.swift in Sources */,
+				8D2890BE2077D9130029F37C /* FormViewController.swift in Sources */,
 				8D28908C2077D7C00029F37C /* AppDelegate.swift in Sources */,
+				8D2890C32077D9450029F37C /* CustomTextField.swift in Sources */,
+				8D2890CC2077DE710029F37C /* UIColor.swift in Sources */,
+				8D2890C72077DC550029F37C /* DetailViewController.swift in Sources */,
+				8D2890CE2077DF0E0029F37C /* UIView.swift in Sources */,
+				8D2890C92077DE510029F37C /* StyleSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
